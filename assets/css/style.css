@@ -31,12 +31,12 @@ body {
 .sample2 div:first-child {
     top: 0;
     background: red;
-    transition: left 4s ease;
+    transition: left 6s ease-in-out;
 }
 .sample2 div:last-child {
     bottom: 0;
     background: green;
-    transition: left 3s ease 1s;
+    transition: left 4s ease 2s;
 }
 .sample2:hover div {
     left: 96vw;
